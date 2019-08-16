@@ -1,0 +1,86 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background-color: bisque;
+  color: purple;
+  height: 130px;
+}
+
+.grid-6{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.grid-61{
+  float: right;
+}
+
+.user__info{
+  list-style: none;
+  float: right;
+}
+
+.more_list{
+  list-style: none;
+}
+
+.user_nav{
+  float: right;
+}
+
+.header__bar{
+  margin: 0 auto;
+}
+
+.user_nav.grid-6{
+  float: right;
+}
+
+.contents_row{
+  text-align: center;
+}
+
+.content_post{
+  padding: 0.5em 1em;
+  margin: 2em 300px;
+  font-weight: bold;
+  color: #6091d3;/*文字色*/
+  background: #FFF;
+  border: solid 3px #6091d3;/*線*/
+  border-radius: 10px;/*角の丸み*/
+}
+
+.user_nav_grid-6{
+  padding-top: 16px;
+  float: right;
+}
+
+.more{
+  padding-left: 600px;
+}
+
+
+textarea{
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  border: solid 3px #000000;
+  font-size: 18px;
+}
+
+input{
+    display: inline-block;
+    max-width: 180px;
+    text-align: left;
+    border: 2px solid #9ec34b;
+    font-size: 16px;
+    color: #9ec34b;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: .4s;
+}
